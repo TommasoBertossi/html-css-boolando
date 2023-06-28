@@ -7,13 +7,40 @@
 }
 
 .container{
-    max-width: 1000px;
+    max-width: 1180px;
+    margin: auto;
 
 }
 
 .flex{
     display: flex;
  
+}
+
+.wrap{
+    flex-wrap: wrap;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
+.justify-evenly{
+    justify-content: space-evenly;
+}
+
+main{
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+ul{
+    list-style: none;
+    color: white;
+}
+
+img{
+    max-width: 100%;
 }
 
 
@@ -27,4 +54,17 @@
 
 .logo{
     max-height: 80%;
+}
+
+/* MAIN */
+
+
+.card{
+    width: 30%;
+    border: 2px dashed black;
+    margin: 2rem 1rem;
+}
+
+.card-img > img{
+    width: 100%;
 }
