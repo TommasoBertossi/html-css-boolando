@@ -68,3 +68,21 @@ img{
 .card-img > img{
     width: 100%;
 }
+
+.card-pic{
+    max-width: 100%;
+    display: block;
+}
+
+.pic-b{
+    display: none;
+}
+
+.card:hover .pic-a{
+    display: none;
+}
+
+
+.card:hover .pic-b {
+    display: block;
+}
