@@ -60,12 +60,12 @@ img{
 
 
 .card{
-    width: 30%;
-    border: 2px dashed black;
-    margin: 2rem 1rem;
+  width: calc(100% / 3);
+
+    position: relative;
 }
 
-.card-img > img{
+.card-img{
     width: 100%;
 }
 
@@ -85,4 +85,11 @@ img{
 
 .card:hover .pic-b {
     display: block;
+}
+
+.card-content{
+    position: absolute;
+    bottom: 30px;
+    left: 10px;
+    background-color: red;
 }
